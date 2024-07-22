@@ -7,7 +7,7 @@ modules:
   youtube-search-python
   ffmpeg
 
-#Installation
+# Installation
 ```
 use the classic git clone and clone this repo
 
@@ -18,9 +18,35 @@ $ pip install youtube-search-python
 $ pip install ffmpeg
 ```
 
-#Run
+# Run
 
 ```
 cd YoutubeDownloader
-python3 ytd.py
+$ python3 ytd.py
+How many songs to download?
+2
+Enter song name separated by a whitespace...
+Enter song name 1 blinding lights
+Enter song name 2 7 rings
+[youtube] Extracting URL: https://www.youtube.com/watch?v=4NRXx6U8ABQ
+[youtube] 4NRXx6U8ABQ: Downloading webpage
+[youtube] 4NRXx6U8ABQ: Downloading ios player API JSON
+[youtube] 4NRXx6U8ABQ: Downloading player d60b0ef9
+[youtube] 4NRXx6U8ABQ: Downloading m3u8 information
+[info] 4NRXx6U8ABQ: Downloading 1 format(s): 251
+[download] Destination: The Weeknd - Blinding Lights (Official Video) [4NRXx6U8ABQ].webm
+[download] 100% of    3.91MiB in 00:00:18 at 222.00KiB/s
+[ExtractAudio] Destination: The Weeknd - Blinding Lights (Official Video) [4NRXx6U8ABQ].mp3
+Deleting original file The Weeknd - Blinding Lights (Official Video) [4NRXx6U8ABQ].webm (pass -k to keep)
+[youtube] Extracting URL: https://www.youtube.com/watch?v=QYh6mYIJG2Y
+[youtube] QYh6mYIJG2Y: Downloading webpage
+[youtube] QYh6mYIJG2Y: Downloading ios player API JSON
+[youtube] QYh6mYIJG2Y: Downloading m3u8 information
+[info] QYh6mYIJG2Y: Downloading 1 format(s): 251
+[download] Destination: Ariana Grande - 7 rings (Official Video) [QYh6mYIJG2Y].webm
+[download] 100% of    2.92MiB in 00:00:20 at 147.86KiB/s
+[ExtractAudio] Destination: Ariana Grande - 7 rings (Official Video) [QYh6mYIJG2Y].mp3
+Deleting original file Ariana Grande - 7 rings (Official Video) [QYh6mYIJG2Y].webm (pass -k to keep)
+continue (y/n)
+n
 ```
