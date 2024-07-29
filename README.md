@@ -11,11 +11,7 @@ modules:
 ```
 use the classic git clone and clone this repo
 
-for modules:
-
-$ pip install yt_dlp
-$ pip install youtube-search-python
-$ pip install ffmpeg
+$ sudo python3 setup.py
 ```
 
 # Run
