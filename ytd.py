@@ -15,34 +15,39 @@ REQ :
 from youtubesearchpython import *
 import yt_dlp as dl
 from os import system as cwrite
+from os import getcwd as pwd
+from os import listdir  as ls
 def dlod(s,sn):
-    if sn == 1:
-        y = {}
-        sr = VideosSearch(str(s), limit = 1).result()
-        val = [i for i in sr.values()]
-        link = val[0][0].get("link")
-        cwrite("python3 -m yt_dlp -x " + link + " --audio-format mp3 --audio-quality 0")
-    else:
-        for i in slis:
+    ald = False
+    directory = [j.lower() for j in ls()]
+    for i in slis:
+        ald = False
+        for k in directory:
+            if i in k:
+                print(f"Song {i} already found in directory skipping {i}")
+                ald = True
+                break
+        if ald:
+            pass
+        else:
             y = {}
             sr = VideosSearch(str(i), limit = 1).result()
             val = [j for j in sr.values()]
             link = val[0][0].get("link")
             cwrite("python3 -m yt_dlp -x " + link + " --audio-format mp3 --audio-quality 0")
 def start():
-    print("How many songs to download?")
-    num = int(input())
-    if num != 0 and num == 1:
-        print("song name : ")
-        song = input()
-        dlod(song,1)
-    else:
-        print("Enter song name separated by a whitespace...")
-        global slis
-        slis = []
-        for i in range(num):
-            slis.append(input(f"Enter song name {i + 1}"))
-        dlod(slis, num)
+    print("Enter song names")
+    global slis
+    slis = []
+    i = 1
+    while True:
+        s_name = input(f"Enter song number {i}: ")
+        i += 1
+        if s_name == "":
+            break
+        else:
+            slis.append(s_name)
+    dlod(slis, len(slis))
     print("continue (y/n)")
     des = input()
     if des.lower() == "y":

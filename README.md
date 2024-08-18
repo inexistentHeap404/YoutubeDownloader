@@ -9,17 +9,13 @@ modules:
 
 # Installation
 ```
-use the classic git clone and clone this repo
+$ git clone -d miniUpdate1 [git clone link]
 
-for modules:
-
-$ pip install yt_dlp
-$ pip install youtube-search-python
-$ pip install ffmpeg
+$ sudo python3 setup.py
 ```
 
 # Run
-
+V1
 ```
 cd YoutubeDownloader
 $ python3 ytd.py
@@ -50,3 +46,8 @@ Deleting original file Ariana Grande - 7 rings (Official Video) [QYh6mYIJG2Y].we
 continue (y/n)
 n
 ```
+
+
+The previous version needed the user to specify the number of songs to download, but in this version you just keep entering songs until you run out of songs to keep in your playlist and when you wish to end just press enter.
+
+The next update might feature a GUI.
