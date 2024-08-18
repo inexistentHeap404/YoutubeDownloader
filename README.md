@@ -9,13 +9,9 @@ modules:
 
 # Installation
 ```
-use the classic git clone and clone this repo
+$ git clone -d miniUpdate1 [git clone link]
 
-for modules:
-
-$ pip install yt_dlp
-$ pip install youtube-search-python
-$ pip install ffmpeg
+$ sudo python3 setup.py
 ```
 
 # Run
