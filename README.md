@@ -9,8 +9,7 @@ modules:
 
 # Installation
 ```
-$ git clone -d miniUpdate1 [git clone link]
-
+$ use the classic git clone
 $ sudo python3 setup.py
 ```
 
