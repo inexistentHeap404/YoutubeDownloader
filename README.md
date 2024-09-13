@@ -50,3 +50,11 @@ n
 The previous version needed the user to specify the number of songs to download, but in this version you just keep entering songs until you run out of songs to keep in your playlist and when you wish to end just press enter.
 
 The next update might feature a GUI.
+
+Here's the next Update, This update features a Tkinter GUI with ttkbootstrap plugin for a more morden Tkinter Experience.
+
+![screenshot]("/home/halo/Pictures/Screenshots/ytd_screenshot.png")
+![screenshot]("/home/halo/Pictures/Screenshots/Download_demp.png")
+
+
+
