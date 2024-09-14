@@ -51,10 +51,19 @@ The previous version needed the user to specify the number of songs to download,
 
 The next update might feature a GUI.
 
-Here's the next Update, This update features a Tkinter GUI with ttkbootstrap plugin for a more morden Tkinter Experience.
+# GUI update
 
-![screenshot]("/home/halo/Pictures/Screenshots/ytd_screenshot.png")
-![screenshot]("/home/halo/Pictures/Screenshots/Download_demp.png")
+```
+Additional Requirements:
+Tkkinter, ttkbootstrap
+```
+## Run is as an App in you Linux machine
+```
+Feature coming soon!!
+```
+
+Here's the next Update, This update features a Tkinter GUI with ttkbootstrap plugin for a more morden Tkinter Experience.
+Enter the Video name and the path to install it and it does it.
 
 
 
